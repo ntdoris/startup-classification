@@ -20,16 +20,26 @@ This project uses Crunchbase data on companies founded between 1902 and 2014, so
 * As our primary focus is to correctly identify the companies that failed, we use recall as our primary evaluation metric. Of all the failed companies in the data, how many did our model correctly identify?
 * Our secondary consideration is the ROC AUC score, which represents the true positive rate versus the false positive rate, as we do not want to ignore false positives entirely. False positives represent startups that are incorrectly classified as closed, but actually succeeded
 * Finally, we look at accuracy. How accurate is the model overall in predicting status?
+![image](https://user-images.githubusercontent.com/102126161/190449893-655939bb-5939-4d58-b6ff-8dee0a3cefce.png)
 
 ### Final Model: Extreme Gradient Boosting
+![image](https://user-images.githubusercontent.com/102126161/190449824-702332c7-1d63-4fb8-a100-2e6578897b51.png)
 
 * Most important features are 'venture', 'international', and 'time_to_first_funding'
+![image](https://user-images.githubusercontent.com/102126161/190449798-d2d75fd2-e382-40ad-94c1-416ba8d9e127.png)
 
 ## Key Takeaways
 
 * Funding First
+![image](https://user-images.githubusercontent.com/102126161/190449774-0c938c26-e409-4d7b-9c95-5689b5b22827.png)
+
 * Timing Matters
+![image](https://user-images.githubusercontent.com/102126161/190449727-ea5611cf-b05b-4fd9-b6fe-3fb7a35239e7.png)
+![image](https://user-images.githubusercontent.com/102126161/190449747-825e62e1-fcd8-4d6c-9177-0e34cbd88157.png)
+
 * Location, Location, Location 
+![image](https://user-images.githubusercontent.com/102126161/190449697-dda40e45-c4dd-4123-8d09-2b63bdd4b25f.png)
+
 
 ### Next Steps
 
@@ -39,6 +49,6 @@ This project uses Crunchbase data on companies founded between 1902 and 2014, so
 
 ## For More Information
 
-* link to notebook
-* link to presentation
+* Notebook
+* Presentation
 * For more information, you can reach me at ntdoris2@gmail.com
