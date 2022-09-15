@@ -6,7 +6,7 @@ Startups have been the source of much attention in the last few years, with many
 
 ## The Data
 
-This project uses Crunchbase data on companies founded between 1902 and 2014, sourced from Kaggle. It can be found in the data folder in this GitHub repository. Crunchbase is one of the leading sources for data on early-stage startups. While the full dataset contained ~50,000 observations, including companies in operating status, we focused on a subset containing companies that either closed or were acquired, resulting in around ~7,000 observations.
+This project uses Crunchbase data on companies founded between 1902 and 2014, sourced from Kaggle. It can be found in the data folder in this GitHub repository. Crunchbase is one of the leading sources for data on early-stage startups. While the full dataset contained ~50,000 observations, including companies in operating status, we focused on a subset containing companies that either closed or were acquired, founded in 1980 or later, resulting in around ~7,000 observations.
 
 ## Modeling
 
@@ -22,6 +22,8 @@ This project uses Crunchbase data on companies founded between 1902 and 2014, so
 * Finally, we look at accuracy. How accurate is the model overall in predicting status?
 
 ### Final Model: Extreme Gradient Boosting
+
+* Most important features are 'venture', 'international', and 'time_to_first_funding'
 
 ## Key Takeaways
 
