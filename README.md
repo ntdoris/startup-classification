@@ -31,13 +31,12 @@ This project uses Crunchbase data on companies founded between 1902 and 2014, so
 ## Key Takeaways
 
 * Funding First
-![image](https://user-images.githubusercontent.com/102126161/190449774-0c938c26-e409-4d7b-9c95-5689b5b22827.png)
-
 * Timing Matters
+* Location, Location, Location 
+
+![image](https://user-images.githubusercontent.com/102126161/190449774-0c938c26-e409-4d7b-9c95-5689b5b22827.png)
 ![image](https://user-images.githubusercontent.com/102126161/190449727-ea5611cf-b05b-4fd9-b6fe-3fb7a35239e7.png)
 ![image](https://user-images.githubusercontent.com/102126161/190449747-825e62e1-fcd8-4d6c-9177-0e34cbd88157.png)
-
-* Location, Location, Location 
 ![image](https://user-images.githubusercontent.com/102126161/190449697-dda40e45-c4dd-4123-8d09-2b63bdd4b25f.png)
 
 
