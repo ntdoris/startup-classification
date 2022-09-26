@@ -23,21 +23,14 @@ This project uses Crunchbase data on companies founded between 1902 and 2014, so
 ![image](https://user-images.githubusercontent.com/102126161/190449893-655939bb-5939-4d58-b6ff-8dee0a3cefce.png)
 
 ### Final Model: Extreme Gradient Boosting
-![image](https://user-images.githubusercontent.com/102126161/190449824-702332c7-1d63-4fb8-a100-2e6578897b51.png)
 
-* Most important features are 'venture', 'international', and 'time_to_first_funding'
-![image](https://user-images.githubusercontent.com/102126161/190449798-d2d75fd2-e382-40ad-94c1-416ba8d9e127.png)
+* Most important features are 'funding_total_usd', 'founded_year', 'time_first_to_last_funding', and 'international'
+* Achieved 80 percent recall, 73 percent ROC AUC score, 72 percent accuracy
 
-## Key Takeaways
+## Conclusion
 
-* Funding First
-* Timing Matters
-* Location, Location, Location 
-
-![image](https://user-images.githubusercontent.com/102126161/190449774-0c938c26-e409-4d7b-9c95-5689b5b22827.png)
-![image](https://user-images.githubusercontent.com/102126161/190449727-ea5611cf-b05b-4fd9-b6fe-3fb7a35239e7.png)
-![image](https://user-images.githubusercontent.com/102126161/190449747-825e62e1-fcd8-4d6c-9177-0e34cbd88157.png)
-![image](https://user-images.githubusercontent.com/102126161/190449697-dda40e45-c4dd-4123-8d09-2b63bdd4b25f.png)
+* The final classification model can correctly identify 80 percent of the companies that failed
+* The most influential features were total funding, year founded, time passed from first funding round to last, and whether a company was U.S. base
 
 
 ### Next Steps
@@ -48,6 +41,6 @@ This project uses Crunchbase data on companies founded between 1902 and 2014, so
 
 ## For More Information
 
-* Notebook
-* Presentation
+* [Notebook](https://github.com/ntdoris/dsc-project-3/blob/main/nd_project_3.ipynb)
+* [Presentation](https://github.com/ntdoris/dsc-project-3/blob/main/presentation.pdf)
 * For more information, you can reach me at ntdoris2@gmail.com
