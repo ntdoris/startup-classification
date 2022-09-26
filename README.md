@@ -20,7 +20,7 @@ This project uses Crunchbase data on companies founded between 1902 and 2014, so
 * As our primary focus is to correctly identify the companies that failed, we use recall as our primary evaluation metric. Of all the failed companies in the data, how many did our model correctly identify?
 * Our secondary consideration is the ROC AUC score, which represents the true positive rate versus the false positive rate, as we do not want to ignore false positives entirely. False positives represent startups that are incorrectly classified as closed, but actually succeeded
 * Finally, we look at accuracy. How accurate is the model overall in predicting status?
-![image](https://user-images.githubusercontent.com/102126161/190449893-655939bb-5939-4d58-b6ff-8dee0a3cefce.png)
+![image](https://github.com/ntdoris/dsc-project-3/blob/main/images/model_performance.png)
 
 ### Final Model: Extreme Gradient Boosting
 
