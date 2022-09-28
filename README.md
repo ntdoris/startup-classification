@@ -20,24 +20,37 @@ This project uses Crunchbase data on companies founded between 1902 and 2014, so
 * As our primary focus is to correctly identify the companies that failed, we use recall as our primary evaluation metric. Of all the failed companies in the data, how many did our model correctly identify?
 * Our secondary consideration is the ROC AUC score, which represents the true positive rate versus the false positive rate, as we do not want to ignore false positives entirely. False positives represent startups that are incorrectly classified as closed, but actually succeeded
 * Finally, we look at accuracy. How accurate is the model overall in predicting status?
-![image](https://github.com/ntdoris/dsc-project-3/blob/main/images/model_performance.png)
 
 ### Final Model: Extreme Gradient Boosting
 
-* Most important features are 'funding_total_usd', 'founded_year', 'time_first_to_last_funding', and 'international'
+![image](https://github.com/ntdoris/dsc-project-3/blob/main/images/model_performance.png)
+
 * Achieved 80 percent recall, 73 percent ROC AUC score, 72 percent accuracy
+* Most important features are 'funding_total_usd', 'founded_year', 'time_first_to_last_funding', and 'international'
+
+![image](https://github.com/ntdoris/dsc-project-3/blob/main/images/feat_importance.png)
+
 
 ## Conclusion
 
-* The final classification model can correctly identify 80 percent of the companies that failed
-* The most influential features were total funding, year founded, time passed from first funding round to last, and whether a company was U.S. base
+In identifying startups at greatest risk of failure, ABC Ventures should focus on companies that:
+* Have low overall funding, or achieve fewer funding rounds
+![image](https://github.com/ntdoris/dsc-project-3/blob/main/images/funding_total.png)
+![image](https://github.com/ntdoris/dsc-project-3/blob/main/images/funding_rounds.png)
+
+* Are located outside the U.S., or domestically in regions with fewer startups
+![image](https://github.com/ntdoris/dsc-project-3/blob/main/images/international.png)
+![image](https://github.com/ntdoris/dsc-project-3/blob/main/images/region.png)
+
+* Raise funds at an earlier age
 
 
 ### Next Steps
 
-* Source more recent data
-* Use economic indicators to improve prediction
+* Source data on startups founded in 2015 & later
 * Separate U.S. and international companies, creating separate models for each category
+* Do a deep dive on regions & markets with lowest and highest failure rates
+
 
 ## For More Information
 
