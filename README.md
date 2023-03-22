@@ -1,4 +1,4 @@
-# Project 3 - Classification: Predicting Startup Failure
+# Predicting Startup Failure
 
 ## Project Overview & Business Problem
 
